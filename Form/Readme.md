@@ -1,9 +1,9 @@
 
 This is the very basic form with all basic functionality
+Netlify link :- https://celebrated-beijinho-d29e47.netlify.app/
 
 1 Here I have used method="post" because whenever the user submit data so his all the data will not be seen on tab so that
 it will prevent privacy and it will good also.
-
 2 I have used here input "type" (The value attribute) so that user will get to know what type of data to enter
 3 "required" it specifies that an input field must be filled out before submitting the form
 4  Also I have used id and class to some input and some other tag so that it helps to lay out your code in a well structured format.
