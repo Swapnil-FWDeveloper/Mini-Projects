@@ -1,0 +1,30 @@
+form{
+    background-color: gray;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding-left: 10px;
+    margin: auto;
+    width: 1000px;
+    height: 850px;
+    border-radius: 10px;
+    background-color: gray;
+}
+input{
+    margin: auto;
+}
+h1{
+    color: black;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 33%;
+}
+.UserData{
+    width: 500px;
+    height: 5000px;
+    margin: auto;
+}
+.info-form{
+    color: red;
+    font-weight: bolder;
+}

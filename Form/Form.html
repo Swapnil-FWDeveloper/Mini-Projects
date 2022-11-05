@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Form_6.css">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="post">
+    <h1>Contact Us</h1>
+        <div class="UserData">
+        <div >Name : <input  type="text" id="UserName" name='UserName' required placeholder="Enter your name" ></div><br>
+        <div>Email : <input  type="email" id="UserEmail" name="UserEmale" required placeholder="Enter your email" ></div><br>
+        <div>Password : <input  type="number" id="UserPassword" name="UserPassword" required placeholder="Enter your Password" ></div><br><br>
+    
+        Select Gender : 
+        <select name="Gender" id="UserGender" required>
+            <option value="Choose">Choose one</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+        </select><br><br>
+        <div>Type of developer : 
+            Frontend : <input type="radio" name="UserSkill" id="Frontend">
+            Backend : <input type="radio" name="UserSkill" id="Backend">
+            FullStack : <input type="radio" name="UserSkill" id="FullStack">
+        </div>
+        <fieldset required><br>
+            <legend >Please select Mode of Payment</legend>
+           Cash <input type="radio" name="Mode of Payment" id="Payment">
+           Card <input type="radio" name="Mode of payment" id="Payment">
+           Online <input type="radio" name="Mode of Payment" id="Payment">
+        </fieldset><br>
+        <input  required type="file"><br>
+        <br>
+        <div> Message : <textarea required name="Message" id="Message" cols="30" rows="10" ></textarea></div><br>
+        <div>
+            <p>Select Your Fav Color</p>
+            <input required type="color" name="color" id="color"></div><br>
+        <a href="" target="_blank"><button>Submit</button></a>
+        <p class="info-form">!! This is the basic form with all basic functionality !!</p></div>
+    </div>
+
+</form>
+</body>
+</html>
+
+
+
+
+
+<!-- <form action="" method="post" >
+    <div> Name : <input required type="text" name="username" id="Name" placeholder="Enter your name" ></div><br>
+    <div> Email : <input required type="email" email="useremail" id="Email" placeholder="Enter your email"></div><br>
+    <div> Message : <textarea required name="Message" id="Message" cols="30" rows="10" ></textarea></div><br>
+    <div> Password : <input required type="number" id="Password" placeholder="Enter your Password" ><br><br></div>
+    <div> Gender : 
+    <select  name="userGender" id="userGender">
+         <option value="Choose gender">Choose gender</option>
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         <option value="Transgender">Transgender</option>
+     </select>
+ </div><br>
+ <div>
+     <p>Select Your Fav Color</p>
+     <input required type="color" name="color" id="color"></div><br>
+     <p>Type of developer</p>
+     Frontend : <input type="checkbox" name="skills" id="Frontend">
+     Backend : <input type="checkbox" name="skills" id="Backend">
+     FullStack : <input type="checkbox" name="skills" id="FullStack"><br>
+    <fieldset>
+     <legend>
+        Enter Mode of Payment
+     </legend>
+     Cash : <input type="radio" id="Cash" >
+     Online : <input type="radio" id="Online" >
+     Card : <input type="radio" id="Card" ><br>
+    </fieldset><br>
+   
+    <input  required type="file"><br>
+    <a  target="_blank"><button>Submit</button></a>
+ </form> -->
