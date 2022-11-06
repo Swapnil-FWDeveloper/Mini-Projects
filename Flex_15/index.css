@@ -1,0 +1,27 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    font-size: x-large;
+    border: 2px solid gray;
+    background-color: bisque;
+}
+
+body{
+    border: 2px solid green;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    
+}
+
+
+/* Do chceckout this comment */
+
+/* .two{
+    align-self:flex-end ;
+} */
+
+/* flex-direction: row-reverse; => items will be in row but in reverse order */
