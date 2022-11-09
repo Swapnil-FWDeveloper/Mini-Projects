@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding:0px;
+    box-sizing: border-box;  
+    text-decoration: none;
+    gap: 5px;
+  
+  }
+  ul{
+    list-style: none; 
+  }
+  
+.container{
+  padding-left: 50px;
+  margin: auto;
+}
+.main-footer{
+  background-color: white;
+  padding:20px 0;
+  background-color: #0c3245;
+}
+.footer-col{
+  width: 190%;
+  padding:  0 15px;;
+}
+.row{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  gap: 15px;
+}
+h4{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul>li>a{
+    
+    font-weight:500;
+    font-size:14px ;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(223, 217, 217);
+}
+ul>li>a:hover{
+    color: rgb(16, 240, 240);
+    text-decoration: underline;
+    cursor: pointer;
+}
+hr{
+    width: 93%;
+    margin: auto;
+    margin-top: 40px;
+}
+.StoreAppPng{
+    margin-top: 20px;
+    margin-left:50px;
+    border: 2px rgb(219, 10, 10);
+    width: 100px;
+}
+.After_hr{
+    display: flex;
+    
+}
+.CopyRight{
+    margin-left:100px ;
+    color: white;
+    margin-top: 30px;
+}
+p{
+    text-decoration: underline;
+    color: rgb(223, 222, 222);
+}
+.Social_media{
+   display: flex;
+   margin-left: 400px;
+   gap: 50px;
+   margin-top: 40px;
+   height: 10px;
+
+}
