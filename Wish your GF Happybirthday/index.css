@@ -1,0 +1,22 @@
+
+body{
+    background:url("https://www.icegif.com/wp-content/uploads/2022/06/icegif-131.gif");
+    overflow: hidden;
+}
+
+img{
+    width: 30%;
+    height: 0%;
+    border-radius: 50%;
+}
+h2{
+    text-align: center;
+    font: 26px;
+    color: yellow;
+    animation: text 20s 1;
+}
+@keyframes text{
+    0% {
+        margin-bottom: 500px;
+    }
+}
