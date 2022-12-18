@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.Parent,h2{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#input-box {
+    transition: background-color 0.5s;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid red;
+    margin-top: 5px;
+    width: 50%;
+   
+    border-radius: 5px;
+    /* color: white; */
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 300px;
+  }
+  
+  
