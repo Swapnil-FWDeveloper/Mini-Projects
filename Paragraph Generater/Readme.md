@@ -1,0 +1,2 @@
+    box-sizing: border-box -> it will not allow the div/box to spread outside like
+    lets say there are three box and you want them in a same row and at same heiht and widht and you got the output as one box is bigger than other and all threea re uneven then you have to use box-sizing border box it will arrange the all the 3 boxes in a same line.
