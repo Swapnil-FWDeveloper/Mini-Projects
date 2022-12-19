@@ -1,1 +1,59 @@
 
+
+*{
+    margin:0%;
+    padding:0%;
+    background-color: teal;
+    box-sizing: border-box;
+}
+
+.container{
+   width: 80%;
+   min-height: 100vh;
+   margin: auto;
+   background-color: white;
+   padding: 100px 50px;
+}
+.container h1{
+    background-color: black;
+    color: white;
+    word-spacing: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.myPara{
+    background-color: rgb(226, 211, 211);
+    letter-spacing: 2px;
+    white-space: 5px;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 10px;
+    margin-top: 15px;
+}
+#input-box{
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    transition: background-color 0.5s;
+    width: 50%;
+    color: aqua;
+    margin-top: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+button{
+    background-color: none;
+    font-size: 50px;
+    background-color: white;
+    padding-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    height: 5px;
+    transition: .5ms;
+    background-color: teal;
+}
