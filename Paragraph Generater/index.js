@@ -58,7 +58,30 @@ const generatePara=()=>{
     newcontainer.append(para)
 }
 
-
-const generateWords=()=>{
+//////////////////////////////////////////////////////////////////////////////
+// const generateWords=(n)=>{
+//     let text='';
+//     const letter ='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      
+//     for(let i=0;i<n;i++){
+//         text+=letter[i]
+//     }
     
+//     return text;
+// }
+// console.log(generateWords(10))
+// so what ever we will write in that all the value will be stored in text and function will return text
+// so will get data in or an only 10 elements
+
+
+const generateWords=(n)=>{
+    let text='';
+    const letter ='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      
+    for(let i=0;i<n;i++){
+        text+=letter[i]
+    }
+    
+    return text;
 }
+console.log(generateWords(10))
