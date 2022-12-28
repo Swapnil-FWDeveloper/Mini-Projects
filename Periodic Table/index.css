@@ -1,0 +1,194 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Grand_Div{
+    height: auto;
+    width: auto;
+    /* border: 2px solid salmon; */
+    position: relative;
+}
+
+.Main_Container{
+    height: auto;
+    width: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+    margin-top: 100px;
+}
+.Column1{
+    height: auto;
+    width: auto;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* border: 2px solid black; */
+    
+}
+/* So here I have used element element combinater coz if I do .Column1>div this .Column1 will become parent of div*/
+.Column1 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+      /* justify-content: center; */
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.Column2 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.div_data{
+    height: 140px;
+    width: 166px;
+    /* border: 2px solid green; */
+    align-items: flex-end;
+    margin-left:265px
+    /* gap:55px;why it is not working */
+}
+.Silicon{
+    height: 140px;
+    width: 150px;
+    background-color: green;
+    position: absolute;
+    top: 0.5rem;
+    left: 20rem;
+    color: aliceblue;
+}
+
+.Silicon>div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.Silicon>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+
+.Column3 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column4 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column5 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column6 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column7 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}.Column8 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}.Column9 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}.Column10 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column11 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column12 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column13 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column14 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column15 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column16 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column17 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+.Column18 div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+}
+
+.container{
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+    /* border: 1px solid grey; */
+   
+}
+.Lanthinides,.Actinides{
+    display: flex;
+    justify-content: center;
+    
+}
+.Lanthinides>div
+{
+    
+    height:50px;
+    width: 50px;
+    background-color: rgb(55, 85, 11);
+    border: 1px solid gray;
+    
+}
+.Actinides>div{
+   
+    height:50px;
+    width: 50px;
+    background-color: rgb(122, 184, 52);
+    border: 1px solid gray;
+
+}
+
+#none{
+    border: 1px solid white;
+}
