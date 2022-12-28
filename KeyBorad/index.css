@@ -1,0 +1,39 @@
+.keyboard{
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(5,50px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin-top: 50px;
+    /* justify-content: center;
+    text-align: center;
+    margin: auto; */
+    gap: 10px;
+}
+button{
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    background-color: rgb(19, 18, 18);
+}
+button:hover{
+    color: teal;
+    border-radius: 15px;
+}
+#Space{
+    /* as per output we want output form colum4 to column 8 */
+    grid-column-start:4 ;
+    grid-column-end:9 ;
+    /* so row is going to start from 5 and end at 6 row */
+    grid-row-start:5 ;
+    grid-row-end: 6;
+}
+/* #Shift{
+    grid-column-start:12 ;
+    grid-column-end: ;
+    grid-row-start:4 ;
+    grid-row-end: 4;
+} */
