@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Weather Live</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="https://purepng.com/public/uploads/large/purepng.com-weather-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596142qx4ep.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a9c5919ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div id="titleDiv">
+            World Weather Live
+        </div>
+        <div id="searchDiv">
+            <input id="inp" type="text" placeholder="Enter city name">
+            <button id="btn">
+                <i id="icon" class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <div class="smallNav">
+        <div id="today">
+            Today's Weather
+        </div>
+        <div id="seven">
+            7 Day Weather
+        </div>
+    </div>
+
+    <!-- Weather cards div -->
+
+    <div id="container">
+        <div id="weather">
+            <div id="cityName">
+                <div id="city">
+
+                </div>
+                <div id="date">
+
+                </div>
+            </div>
+            <div id="tempDiv">
+                <div id="temp">
+
+                </div>
+                <div id="sunIcon">
+                    <img id="bigIcon">
+                </div>
+            </div>
+            <div id="maxMin">
+                <div id="minTemp">
+                    Max <span id="smallDeg"></span>
+                </div>
+                <div id="maxTemp">
+                    Min <span id="bigDeg"></span>
+                </div>
+            </div>
+            <div id="humidity">
+                Humidity: <span id="hum"></span>
+            </div>
+            <div id="pressure">
+                Pressure: <span id="pre"></span>
+            </div>
+            <div id="wind">
+                Wind Condtions: Gust - <span id="gust"></span>
+                Speed - <span id="speed"></span>
+            </div>
+        </div>
+        <div id="map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" frameborder="0"
+                        scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
