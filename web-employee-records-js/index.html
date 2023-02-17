@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Masai Employee Records</title>
+  </head>
+  <link rel="stylesheet" href="index.css" />
+  <body>
+    <!-- Use this form for taking the inputs  -->
+    <form>
+      <input placeholder="Name" type="text" id="name" />
+      <input placeholder="Employee ID" type="text" id="employee_id" />
+      <select id="department">
+        <option value="">Select Department</option>
+        <option value="HR">HR</option>
+        <option value="Finance">Finance</option>
+        <option value="Engineering">Engineering</option>
+      </select>
+      <input placeholder="Experience" type="number" id="experience" />
+      <input placeholder="Email" type="email" id="email" />
+      <input placeholder="Mobile No." type="number" id="mobile" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- Use this select tag for filtering  -->
+    <select id="filter">
+      <option value="">Select Department</option>
+      <option value="HR">HR</option>
+      <option value="Finance">Finance</option>
+      <option value="Engineering">Engineering</option>
+    </select>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Employee ID</th>
+          <th>Department</th>
+          <th>Experience in Years</th>
+          <th>Email</th>
+          <th>Mobile No</th>
+          <th>Role</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Append Rows here using JS & DOM  -->
+      </tbody>
+    </table>
+  </body>
+  <script src="./index.js">
+
+  </script>
+
+</html>
