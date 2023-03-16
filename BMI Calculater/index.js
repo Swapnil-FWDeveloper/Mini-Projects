@@ -34,4 +34,5 @@ button.addEventListener('click', () => {
         alert('The form has errors please fill the detail and submit');
         result.innerHTML = '';
     }
+    
 });
