@@ -6,6 +6,7 @@ https://tranquil-cocada-0249ba.netlify.app/
 so in this file I have created new Model website with the help of HTML and CSS with 
  Here their are multiple properties of Css Like :
  
+ 
    1=> background-image: url('./plady.jpg');
     /* By this property we can add img to a file */
 
