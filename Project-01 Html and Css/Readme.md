@@ -32,3 +32,4 @@ so in this file I have created new Model website with the help of HTML and CSS w
    8=> h2+.Button{
 }
     /* h2 adjecent sibling is .h1 and.Button but we have specify to Button */
+    
